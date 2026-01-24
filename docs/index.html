@@ -2,22 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Quiz Practice</title>
+  <title>Math Practice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="quiz-container">
-  <h2 id="question">Loading...</h2>
+  <h1>📘 Math Practice</h1>
+  <p>Select a question set:</p>
 
-  <div id="choices"></div>
-
-  <div id="explanation" class="hidden"></div>
-
-  <button id="nextBtn" class="hidden">Next Question</button>
+  <button onclick="startQuiz('grade3')">Grade 3</button>
+  <button onclick="startQuiz('grade4')">Grade 4</button>
+  <button onclick="startQuiz('sat')">SAT</button>
+  <button onclick="startQuiz('aops')">AOPS</button>
 </div>
 
-<script src="script.js"></script>
+<script>
+function startQuiz(setName) {
+  window.location.href = `quiz.html?set=${setName}`;
+}
+</script>
+
 </body>
 </html>
