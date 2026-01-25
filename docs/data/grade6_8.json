@@ -1,0 +1,86 @@
+[
+    {
+        "question": "81. Calculate the surface area and volume for prism (1): dimensions 15 cm × 10 cm × 8 cm.",
+        "choices": ["SA=620 cm², V=1200 cm³", "SA=680 cm², V=960 cm³", "SA=680 cm², V=1200 cm³", "SA=700 cm², V=1200 cm³"],
+        "correctIndex": 2,
+        "explanation": "SA = 2(lw + lh + wh) = 2(150 + 120 + 80) = 680 cm²; V = l×w×h = 15×10×8 = 1200 cm³"
+    },
+    {
+        "question": "81. Calculate the surface area and volume for prism (2): dimensions 10 dm × 8 dm × 14 dm.",
+        "choices": ["SA=664 dm², V=1120 dm³", "SA=680 dm², V=1120 dm³", "SA=664 dm², V=1000 dm³", "SA=624 dm², V=1120 dm³"],
+        "correctIndex": 0,
+        "explanation": "SA = 2(80 + 140 + 112) = 664 dm²; V = 10×8×14 = 1120 dm³"
+    },
+    {
+        "question": "82. For a cube with side length 3 cm, what is its surface area?",
+        "choices": ["54 cm²", "36 cm²", "27 cm²", "45 cm²"],
+        "correctIndex": 0,
+        "explanation": "Surface area = 6 × side² = 6 × 9 = 54 cm²"
+    },
+    {
+        "question": "82. For a cube with side length 3 cm, what is its volume?",
+        "choices": ["18 cm³", "24 cm³", "27 cm³", "36 cm³"],
+        "correctIndex": 2,
+        "explanation": "Volume = side³ = 3³ = 27 cm³"
+    },
+    {
+        "question": "83. Calculate the volume of the solid figure made of two rectangular prisms.",
+        "choices": ["320 cm³", "336 cm³", "360 cm³", "312 cm³"],
+        "correctIndex": 1,
+        "explanation": "Volume = (6×5×8) + (3×4×8) = 240 + 96 = 336 cm³"
+    },
+    {
+        "question": "84. A rectangular prism has a base area of 35 cm² and volume of 210 cm³. What is its height?",
+        "choices": ["5 cm", "6 cm", "7 cm", "8 cm"],
+        "correctIndex": 1,
+        "explanation": "Height = Volume ÷ Base Area = 210 ÷ 35 = 6 cm"
+    },
+    {
+        "question": "85. A prism's original height is 3 cm. When increased by 2 cm, the volume increases by 60 cm³. What was the original volume?",
+        "choices": ["80 cm³", "85 cm³", "90 cm³", "95 cm³"],
+        "correctIndex": 2,
+        "explanation": "Base Area = Volume Increase ÷ Height Increase = 60 ÷ 2 = 30 cm²; Original Volume = Base Area × Original Height = 30 × 3 = 90 cm³"
+    },
+    {
+        "question": "86. Gold density is 0.2 lb/in³. A gold brick weighs 345.6 lb. (1) What is its volume?",
+        "choices": ["1628 in³", "1728 in³", "1828 in³", "1528 in³"],
+        "correctIndex": 1,
+        "explanation": "Volume = Weight ÷ Density = 345.6 ÷ 0.2 = 1728 in³"
+    },
+    {
+        "question": "86. Gold brick: length = 24 in, width = 9 in, volume = 1728 in³. (2) What is its height in feet?",
+        "choices": ["1/2 ft", "2/3 ft", "3/4 ft", "5/6 ft"],
+        "correctIndex": 1,
+        "explanation": "Height = Volume ÷ (Length × Width) = 1728 ÷ (24×9) = 8 in; Convert to feet: 8 ÷ 12 = 2/3 ft"
+    },
+    {
+        "question": "87. Which point lies in the shaded region of the coordinate plane?",
+        "choices": ["(1, 1)", "(-1, -1)", "(-1, 2)", "(1, -2)"],
+        "correctIndex": 2,
+        "explanation": "The point (-1, 2) falls within the shaded triangular region."
+    },
+    {
+        "question": "88. Points A(-2,0), B(3,0), and C(5,-5) form a triangle. What is its area?",
+        "choices": ["10.5", "11.5", "12.0", "12.5"],
+        "correctIndex": 3,
+        "explanation": "Base AB = 5 units; Height from C to x-axis = 5 units; Area = 0.5 × base × height = 0.5 × 5 × 5 = 12.5"
+    },
+    {
+        "question": "89. A rectangle has width 2 cm. Its length is 4 times its width. What is its length?",
+        "choices": ["6 cm", "7 cm", "8 cm", "9 cm"],
+        "correctIndex": 2,
+        "explanation": "Length = 4 × Width = 4 × 2 = 8 cm"
+    },
+    {
+        "question": "89. A rectangle has width 2 cm and length 8 cm. What is its area?",
+        "choices": ["14 cm²", "16 cm²", "18 cm²", "20 cm²"],
+        "correctIndex": 1,
+        "explanation": "Area = Length × Width = 8 × 2 = 16 cm²"
+    },
+    {
+        "question": "90. An aquarium contains 90 gallons of water. Water density is 7.2 gal/ft³. The tank width is 0.5 ft and height is 4 ft. What is the length?",
+        "choices": ["5.5 ft", "6.0 ft", "6.25 ft", "6.5 ft"],
+        "correctIndex": 2,
+        "explanation": "Volume in ft³ = Water volume ÷ Density = 90 ÷ 7.2 = 12.5 ft³; Length = Volume ÷ (Width × Height) = 12.5 ÷ (0.5×4) = 6.25 ft"
+    }
+]

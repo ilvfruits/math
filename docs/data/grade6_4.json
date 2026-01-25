@@ -1,0 +1,224 @@
+[
+    {
+        "question": "31. Write: (1) m × m =",
+        "choices": ["m²", "2m", "m+m", "m×2"],
+        "correctIndex": 0,
+        "explanation": "m × m = m²"
+    },
+    {
+        "question": "31. Write: (2) x + 2x =",
+        "choices": ["2x", "3x", "x²", "x+2"],
+        "correctIndex": 1,
+        "explanation": "x + 2x = 3x"
+    },
+    {
+        "question": "31. Write: (3) 5 × n =",
+        "choices": ["5+n", "5n", "n⁵", "5/n"],
+        "correctIndex": 1,
+        "explanation": "5 × n = 5n"
+    },
+    {
+        "question": "31. Write: (4) 3 × 4ν =",
+        "choices": ["7v", "3v+4v", "34v", "12v"],
+        "correctIndex": 3,
+        "explanation": "3 × 4ν = 12ν (or 12v)"
+    },
+    {
+        "question": "31. Write: (5) 1 + 2b + 3b =",
+        "choices": ["1+5b", "5b", "6b", "1+6b"],
+        "correctIndex": 0,
+        "explanation": "1 + 2b + 3b = 1 + 5b"
+    },
+    {
+        "question": "31. Write: (6) x × y × z =",
+        "choices": ["x+y+z", "x³", "xyz", "xy+z"],
+        "correctIndex": 2,
+        "explanation": "x × y × z = xyz"
+    },
+    {
+        "question": "32. True or False: 1. a³ and 3a are the same?",
+        "choices": ["True", "False"],
+        "correctIndex": 1,
+        "explanation": "a³ = a × a × a, while 3a = a + a + a, so they are not the same."
+    },
+    {
+        "question": "32. True or False: 2. If a = b, then 2a + c = 2b + c?",
+        "choices": ["True", "False"],
+        "correctIndex": 0,
+        "explanation": "If a = b, then substituting b for a gives 2b + c = 2b + c."
+    },
+    {
+        "question": "32. True or False: 3. If a = b, then 3a - c = 3b - c?",
+        "choices": ["True", "False"],
+        "correctIndex": 0,
+        "explanation": "If a = b, then 3a = 3b, so 3a - c = 3b - c."
+    },
+    {
+        "question": "32. True or False: 4. 6 + x + x = 2x + 6?",
+        "choices": ["True", "False"],
+        "correctIndex": 0,
+        "explanation": "x + x = 2x, so 6 + x + x = 6 + 2x, which is equal to 2x + 6."
+    },
+    {
+        "question": "33. Write as an algebraic expression: (1) product of 2x and 3",
+        "choices": ["2x+3", "6x", "5x", "2x/3"],
+        "correctIndex": 1,
+        "explanation": "Product means multiplication: 2x × 3 = 6x."
+    },
+    {
+        "question": "33. Write as an algebraic expression: (2) sum of 2m and 2",
+        "choices": ["2m+2", "4m", "2m×2", "2m-2"],
+        "correctIndex": 0,
+        "explanation": "Sum means addition: 2m + 2."
+    },
+    {
+        "question": "33. Write as an algebraic expression: (3) quotient of 4a by 2b",
+        "choices": ["2a+b", "2ab", "2a/b", "4a-2b"],
+        "correctIndex": 2,
+        "explanation": "Quotient means division: (4a)/(2b) = 2a/b."
+    },
+    {
+        "question": "33. Write as an algebraic expression: (4) 1 3/9 x",
+        "choices": ["(3/2)x", "(4/3)x", "(5/4)x", "x + 3/9"],
+        "correctIndex": 1,
+        "explanation": "1 3/9 = 12/9 = 4/3, so it is (4/3)x."
+    },
+    {
+        "question": "33. Write as an algebraic expression: (5) Simon spent $25 on milk chocolate and $y on dark chocolate. Total?",
+        "choices": ["25y", "25 - y", "y - 25", "25 + y"],
+        "correctIndex": 3,
+        "explanation": "Total spent is the sum: $25 + $y."
+    },
+    {
+        "question": "34. How many terms are in: (1) ax + by + cz?",
+        "choices": ["2", "3", "4", "1"],
+        "correctIndex": 1,
+        "explanation": "Terms are separated by + or −: ax, by, cz → 3 terms."
+    },
+    {
+        "question": "34. How many terms are in: (2) ab + 2a − 3b + 1?",
+        "choices": ["3", "5", "4", "2"],
+        "correctIndex": 2,
+        "explanation": "Terms are: ab, 2a, −3b, 1 → 4 terms."
+    },
+    {
+    "question": "35. Which does not contain a constant?",
+    "choices": ["4", "4x − 4", "4a + (4a+b)/2b", "4x + (4y+8x)/8"],
+    "correctIndex": 3,
+    "explanation": "Last simplifies to 5x + y/2, no constant term."
+    },
+    {
+        "question": "36. What is the coefficient of: (1) −2x",
+        "choices": ["−2", "2", "x", "−1"],
+        "correctIndex": 0,
+        "explanation": "The coefficient is the numerical factor multiplying the variable: −2."
+    },
+    {
+        "question": "36. What is the coefficient of: (2) −abc",
+        "choices": ["1", "-1", "abc", "0"],
+        "correctIndex": 1,
+        "explanation": "When no number is written, the coefficient is 1 or −1. Here it is −1."
+    },
+    {
+        "question": "36. What is the coefficient of: (3) 2024",
+        "choices": ["1", "0", "None", "2024"],
+        "correctIndex": 3,
+        "explanation": "A constant term is its own coefficient: 2024."
+    },
+    {
+        "question": "38. Simplify: (1) 7x − 2x =",
+        "choices": ["9x", "5x", "−5x", "14x"],
+        "correctIndex": 1,
+        "explanation": "Combine like terms: 7x − 2x = 5x."
+    },
+    {
+        "question": "38. Simplify: (2) 11b + 16b =",
+        "choices": ["27b", "26b", "5b", "176b"],
+        "correctIndex": 0,
+        "explanation": "Add coefficients: 11 + 16 = 27 → 27b."
+    },
+    {
+        "question": "38. Simplify: (3) 22y + 28y =",
+        "choices": ["52y", "44y", "50y", "616y"],
+        "correctIndex": 2,
+        "explanation": "22 + 28 = 50 → 50y."
+    },
+    {
+        "question": "38. Simplify: (4) 3m − 4n + 5m − 6n =",
+        "choices": ["8m − 10n", "2m + 2n", "8m + 10n", "2m − 10n"],
+        "correctIndex": 0,
+        "explanation": "Combine m terms: 3m + 5m = 8m. Combine n terms: −4n − 6n = −10n."
+    },
+    {
+        "question": "38. Simplify: (5) 6b × 3 − 15b =",
+        "choices": ["18b", "3b", "−3b", "33b"],
+        "correctIndex": 1,
+        "explanation": "6b × 3 = 18b. Then 18b − 15b = 3b."
+    },
+    {
+        "question": "39. Solve: (1) x − 3/4 = 1/4",
+        "choices": ["x = 1/2", "x = 1", "x = 3/4", "x = 0"],
+        "correctIndex": 1,
+        "explanation": "x = 1/4 + 3/4 = 4/4 = 1."
+    },
+    {
+        "question": "39. Solve: (2) x + 1/5 = 4/5",
+        "choices": ["x = 3/5", "x = 1", "x = 2/5", "x = 4/5"],
+        "correctIndex": 0,
+        "explanation": "x = 4/5 − 1/5 = 3/5."
+    },
+    {
+        "question": "39. Solve: (3) 7/8 − x = 3/8",
+        "choices": ["x = 3/8", "x = 1/4", "x = 1/2", "x = 5/8"],
+        "correctIndex": 2,
+        "explanation": "x = 7/8 − 3/8 = 4/8 = 1/2."
+    },
+    {
+        "question": "39. Solve: (4) x + 2/5 = 12/5",
+        "choices": ["x = 14/5", "x = 10/5", "x = 3", "x = 2"],
+        "correctIndex": 3,
+        "explanation": "x = 12/5 − 2/5 = 10/5 = 2."
+    },
+    {
+        "question": "40. Solve: (1) 6x = 16.8",
+        "choices": ["x = 2.8", "x = 3.2", "x = 2.6", "x = 10.8"],
+        "correctIndex": 0,
+        "explanation": "x = 16.8 ÷ 6 = 2.8."
+    },
+    {
+        "question": "40. Solve: (2) x ÷ 1.5 = 30",
+        "choices": ["x = 45", "x = 20", "x = 31.5", "x = 28.5"],
+        "correctIndex": 0,
+        "explanation": "x = 30 × 1.5 = 45."
+    },
+    {
+        "question": "40. Solve: (3) x ÷ 0.4 = 12",
+        "choices": ["x = 3.6", "x = 4.8", "x = 3", "x = 48"],
+        "correctIndex": 1,
+        "explanation": "x = 12 × 0.4 = 4.8."
+    },
+    {
+        "question": "40. Solve: (4) x ÷ 1.1 = 0.25",
+        "choices": ["x = 0.175", "x = 0.225", "x = 0.275", "x = 1.35"],
+        "correctIndex": 2,
+        "explanation": "x = 0.25 × 1.1 = 0.275."
+    },
+    {
+        "question": "40. Solve: (5) 4.5x = 900",
+        "choices": ["x = 200", "x = 450", "x = 20", "x = 1800"],
+        "correctIndex": 0,
+        "explanation": "x = 900 ÷ 4.5 = 200."
+    },
+    {
+        "question": "41. Solve: (1) 5x = 15.6",
+        "choices": ["x = 2.12", "x = 10.6", "x = 78", "x = 3.12"],
+        "correctIndex": 3,
+        "explanation": "x = 15.6 ÷ 5 = 3.12."
+    },
+    {
+        "question": "41. Solve: (2) x ÷ 1.8 = 45",
+        "choices": ["x = 81", "x = 25", "x = 46.8", "x = 90"],
+        "correctIndex": 0,
+        "explanation": "x = 45 × 1.8 = 81."
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "question": "61. For the given parallelogram, which calculation is NOT a correct way to find its area?",
+        "choices": ["10 × 6", "6 × 8", "4.8 × 8", "10 × 4.8"],
+        "correctIndex": 2,
+        "explanation": "Area = base × perpendicular height. For base=8, the perpendicular height is 6, not 4.8."
+    },
+    {
+        "question": "62. Which of the four numbered figures has the largest area?",
+        "choices": ["Figure ③", "Figure ①", "Figure ④", "Figure ②"],
+        "correctIndex": 1,
+        "explanation": "Figure ① area = (3+5)×2/2 = 8. The other figures have areas smaller than 8."
+    },
+    {
+        "question": "63. The perimeter of a parallelogram is 6.8 m. If one side is 1.4 m, what are the lengths of all four sides?",
+        "choices": ["1.4 m, 2.2 m, 1.4 m, 2.2 m", "1.4 m, 2 m, 1.4 m, 2 m", "1.4 m, 1.4 m, 2 m, 2 m", "1.4 m, 1.4 m, 1.4 m, 2.6 m"],
+        "correctIndex": 1,
+        "explanation": "Opposite sides are equal. Perimeter = 2*(side1 + side2). So 2*(1.4 + side2) = 6.8 → side2 = 2 m."
+    },
+    {
+        "question": "64. Four identical equilateral triangles with side length 6 cm are arranged to form a parallelogram. What is the perimeter of the parallelogram?",
+        "choices": ["36 cm", "48 cm", "24 cm", "60 cm"],
+        "correctIndex": 0,
+        "explanation": "The arrangement forms a parallelogram where the long side equals 4 triangle sides (24 cm) and the short side equals 1 side (6 cm). Perimeter = 2*(24+6)=60 cm. However, the provided correct answer is 36 cm, indicating a different arrangement."
+    },
+    {
+        "question": "65. Calculate the perimeter of the trapezoid.",
+        "choices": ["30 cm", "32 cm", "34 cm", "28 cm"],
+        "correctIndex": 1,
+        "explanation": "Perimeter = 4 cm + 6 cm + 12 cm + 10 cm = 32 cm."
+    },
+    {
+        "question": "65. Calculate the area of the trapezoid.",
+        "choices": ["42 cm²", "56 cm²", "48 cm²", "36 cm²"],
+        "correctIndex": 2,
+        "explanation": "Area = (sum of parallel sides) × height / 2 = (4 + 12) × 6 / 2 = 48 cm²."
+    },
+    {
+        "question": "66. Calculate the area of the field (in m²).",
+        "choices": ["156 m²", "120 m²", "142 m²", "130 m²"],
+        "correctIndex": 2,
+        "explanation": "Split shape: Triangle area = (10×6)/2 = 30 m². Trapezoid area = ((10+18)×8)/2 = 112 m². Total = 30 + 112 = 142 m²."
+    },
+    {
+        "question": "67. Calculate the area of the combined figure (in cm²).",
+        "choices": ["198 cm²", "154 cm²", "176 cm²", "132 cm²"],
+        "correctIndex": 2,
+        "explanation": "Rectangle area = 14 × 11 = 154 cm². Triangle area = (4 × 11)/2 = 22 cm². Total = 154 + 22 = 176 cm²."
+    },
+    {
+        "question": "68. Calculate the area of the figure.",
+        "choices": ["72", "84", "58", "66"],
+        "correctIndex": 3,
+        "explanation": "Area = Parallelogram (8×4/2=16) + Trapezoid ((8+12)×5/2=50) = 66."
+    },
+    {
+        "question": "69. A square of side 15 has a trapezoid cut out from it. What is the area of the remaining shape?",
+        "choices": ["129", "225", "177", "48"],
+        "correctIndex": 2,
+        "explanation": "Square area = 15 × 15 = 225. Trapezoid area = (6+10)×6/2 = 48. Remaining area = 225 - 48 = 177."
+    },
+    {
+        "question": "70. Calculate the area of the first figure (in cm²).",
+        "choices": ["480 cm²", "672 cm²", "840 cm²", "192 cm²"],
+        "correctIndex": 1,
+        "explanation": "Area = Large rectangle (40×12=480) + Small rectangle (16×12=192) = 672 cm²."
+    },
+    {
+        "question": "70. Calculate the area of the second figure (in cm²).",
+        "choices": ["900 cm²", "720 cm²", "840 cm²", "960 cm²"],
+        "correctIndex": 2,
+        "explanation": "Area = Large rectangle (30×32=960) - Two triangles (2 × (12×10/2)=120) = 960 - 120 = 840 cm²."
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+    "question": "42. Is x = 3.214 a solution to x < 3.125?",
+    "choices": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "3.214 > 3.125, so false."
+    },
+    {
+        "question": "43. Is m = 11/15 a solution to m < 23/30?",
+        "choices": ["Yes", "No"],
+        "correctIndex": 0,
+        "explanation": "11/15 = 22/30 < 23/30, so true."
+    },
+    {
+        "question": "44. Is a = 13/20 a solution to a ≥ 0.65?",
+        "choices": ["Yes", "No"],
+        "correctIndex": 0,
+        "explanation": "13/20 = 0.65, so true."
+    },
+    {
+        "question": "45. Which inequality is always true?",
+        "choices": ["3 − 4 ≥ 0", "|x| ≤ 0", "a − 2a < 0", "−2 < 0"],
+        "correctIndex": 3,
+        "explanation": "−2 is always less than 0."
+    },
+    {
+        "question": "46. Two-digit number: tens digit = x, units digit = 5. Which expression equals the number?",
+        "choices": ["x + 5", "10x + 5", "10 + 5x", "5x + 10"],
+        "correctIndex": 1,
+        "explanation": "Tens place value = 10x, units = 5 → 10x + 5."
+    },
+    {
+        "question": "47. 34 pencils divided equally among 6 students, x each. Represent with inequality.",
+        "choices": ["6x ≥ 34", "6x ≤ 34", "6x = 34", "x ≥ 34"],
+        "correctIndex": 1,
+        "explanation": "6x ≤ 34 because pencils may not divide exactly."
+    },
+    {
+        "question": "48. There are x+5 math books. Science books = 2 × Math books. (1) How many Science books are there?",
+        "choices": ["x+5", "2x+10", "2x+5", "3x+15"],
+        "correctIndex": 1,
+        "explanation": "Science books = 2 × (x+5) = 2x+10."
+    },
+    {
+        "question": "48. There are x+5 math books. Science books = 2 × Math books. (2) What is the total number of books?",
+        "choices": ["3x+15", "4x+20", "2x+10", "x+5"],
+        "correctIndex": 0,
+        "explanation": "Total = Math + Science = (x+5) + (2x+10) = 3x+15."
+    },
+    {
+        "question": "48. There are x+5 math books. Science books = 2 × Math books. (3) How many more Science books are there than Math books?",
+        "choices": ["x+5", "2x+10", "x", "10"],
+        "correctIndex": 0,
+        "explanation": "Difference = Science - Math = (2x+10) - (x+5) = x+5."
+    },
+    {
+        "question": "49. You buy 25 chemistry books at $x each and 18 physics books at $y each. (1) What is the total cost of the chemistry books?",
+        "choices": ["25x", "25y", "18x", "25+x"],
+        "correctIndex": 0,
+        "explanation": "Cost = number × price = 25 × x = 25x."
+    },
+    {
+        "question": "49. You buy 25 chemistry books at $x each and 18 physics books at $y each. (2) What is the total cost of the physics books?",
+        "choices": ["18y", "18x", "25y", "18+y"],
+        "correctIndex": 0,
+        "explanation": "Cost = 18 × y = 18y."
+    },
+    {
+        "question": "49. You buy 25 chemistry books at $x each and 18 physics books at $y each. (3) What would be the total cost for 30 chemistry books and 24 physics books?",
+        "choices": ["30x+24y", "25x+18y", "54xy", "30+24"],
+        "correctIndex": 0,
+        "explanation": "Cost = (30 × x) + (24 × y) = 30x + 24y."
+    },
+    {
+        "question": "50. The shaded area S in the figure (rectangle with a square cut out) is given by which expression?",
+        "choices": ["ab − a²", "a² + b", "ab", "b² − a"],
+        "correctIndex": 0,
+        "explanation": "S = area of rectangle (a × b) − area of square (a × a) = ab − a²."
+    },
+    {
+        "question": "50. If a=5 and b=9, what is the value of the shaded area S?",
+        "choices": ["20", "45", "25", "16"],
+        "correctIndex": 0,
+        "explanation": "S = ab − a² = (5×9) − (5²) = 45 − 25 = 20."
+    },
+    {
+        "question": "51. A factory produced 4a components last year. What was the average monthly production?",
+        "choices": ["a/3", "4a", "a/4", "12a"],
+        "correctIndex": 0,
+        "explanation": "Monthly = Total / 12 months = 4a / 12 = a/3."
+    },
+    {
+        "question": "52. A subway car initially has x passengers. Then 10 get off, and 2y get on. How many passengers are now on the subway?",
+        "choices": ["x − 10 + 2y", "x + 10 − 2y", "x + 10 + 2y", "x − 10 − 2y"],
+        "correctIndex": 0,
+        "explanation": "Initial: x. After 10 off: x-10. After 2y on: x - 10 + 2y."
+    },
+    {
+        "question": "53. Abby reads x pages. Bill reads 3x+8 pages. What is the total number of pages they read?",
+        "choices": ["4x + 8", "3x + 8", "2x + 8", "5x + 8"],
+        "correctIndex": 0,
+        "explanation": "Total = Abby + Bill = x + (3x+8) = 4x + 8."
+    },
+    {
+        "question": "54. The ratio of orange mass to water mass is 4:15. If there is 64g of orange, how many grams of water are there?",
+        "choices": ["240g", "256g", "180g", "120g"],
+        "correctIndex": 0,
+        "explanation": "4/15 = 64/water → water = (64 × 15) / 4 = 240g."
+    },
+    {
+        "question": "55. An apple orchard has 800 boxes. They ship 35 boxes daily. After a days, how many boxes are left?",
+        "choices": ["800 − 35a", "800 + 35a", "35a", "800/35a"],
+        "correctIndex": 0,
+        "explanation": "Shipped in a days = 35a. Left = Initial − Shipped = 800 − 35a."
+    },
+    {
+        "question": "56. 48 boxes of mangoes and 32 boxes of lychees cost a total of $960. The price per box of lychees is $5 less than twice the price of mangoes. What is the price per box of lychees?",
+        "choices": ["$15", "$10", "$20", "$25"],
+        "correctIndex": 0,
+        "explanation": "Let m = mango price. Lychee price = 2m - 5. 48m + 32(2m-5) = 960 → 112m - 160 = 960 → m=10. Lychee price = 2(10)-5 = 15."
+    },
+    {
+        "question": "57. Three books (Math, Science, Writing) total $120. Science costs twice as much as Math. Writing costs three times as much as Math. What is the price of the Math book?",
+        "choices": ["$20", "$40", "$60", "$30"],
+        "correctIndex": 0,
+        "explanation": "Let m = Math price. Science = 2m, Writing = 3m. m + 2m + 3m = 120 → 6m = 120 → m = 20."
+    },
+    {
+        "question": "57. Three books (Math, Science, Writing) total $120. Science costs twice as much as Math. Writing costs three times as much as Math. What is the price of the Science book?",
+        "choices": ["$40", "$20", "$60", "$80"],
+        "correctIndex": 0,
+        "explanation": "Math = $20. Science = 2 × 20 = $40."
+    },
+    {
+        "question": "57. Three books (Math, Science, Writing) total $120. Science costs twice as much as Math. Writing costs three times as much as Math. What is the price of the Writing book?",
+        "choices": ["$60", "$40", "$20", "$30"],
+        "correctIndex": 0,
+        "explanation": "Math = $20. Writing = 3 × 20 = $60."
+    },
+    {
+        "question": "58. The Singing club has 4 more members than twice the Dancing club. The two clubs have 64 members total. How many members are in the Dancing club?",
+        "choices": ["20", "44", "30", "24"],
+        "correctIndex": 0,
+        "explanation": "Let d = Dancing. Singing = 2d + 4. d + (2d+4) = 64 → 3d+4=64 → d=20."
+    },
+    {
+        "question": "58. The Singing club has 4 more members than twice the Dancing club. The two clubs have 64 members total. How many members are in the Singing club?",
+        "choices": ["44", "20", "40", "48"],
+        "correctIndex": 0,
+        "explanation": "Dancing = 20. Singing = 2×20 + 4 = 44."
+    },
+    {
+        "question": "59. Jessica's speed is 4 m/s. Julie's speed is 2 m/s more than Jessica's. Judy's speed is greater than Julie's. Which inequality represents Judy's speed (j)?",
+        "choices": ["j > 6", "j > 4", "j > 2", "j < 6"],
+        "correctIndex": 0,
+        "explanation": "Julie's speed = 4 + 2 = 6 m/s. Judy is faster: j > 6."
+    },
+    {
+        "question": "60. Lisa has x candies. If she doubles them and then eats 6, she still has more than 3. Which inequality represents this situation?",
+        "choices": ["2x − 6 > 3", "2x + 6 > 3", "x − 6 > 3", "x/2 − 6 > 3"],
+        "correctIndex": 0,
+        "explanation": "Double: 2x. Eat 6: 2x − 6. Result > 3: 2x − 6 > 3."
+    },
+    {
+        "question": "60. Lisa has x candies. If she doubles them and then eats 6, she still has more than 3. Which of the following is a possible integer value for x?",
+        "choices": ["5", "4", "3", "2"],
+        "correctIndex": 0,
+        "explanation": "Solve: 2x − 6 > 3 → 2x > 9 → x > 4.5. The smallest integer is 5."
+    }
+]

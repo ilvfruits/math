@@ -1,0 +1,117 @@
+[
+    {
+    "question": "91. Which are measures of center?",
+    "choices": ["Mean", "Range", "Median", "Mode"],
+    "correctIndex": 0,
+    "correctMultiple": [0, 2, 3],
+    "explanation": "Mean, median, mode are measures of center; range is spread."
+    },
+    {
+        "question": "92. Which is NOT a measure of center?",
+        "choices": ["Mean", "Range", "Median", "Mode"],
+        "correctIndex": 1,
+        "explanation": "Range measures variation."
+    },
+    {
+        "question": "93. Mean of 55, 60, 60, 60, 60, 65, 70, 75?",
+        "choices": ["60", "62.5", "63.125", "63.5"],
+        "correctIndex": 2,
+        "explanation": "Sum=505, count=8, mean=505/8=63.125."
+    },
+    {
+        "question": "94. Data set: 36, 37, 38, 38, x. The mean is 37. What is the value of x?",
+        "choices": ["38", "36", "35", "37"],
+        "correctIndex": 1,
+        "explanation": "Sum = 36+37+38+38+x = 149+x; Mean = (149+x)/5 = 37 → 149+x = 185 → x = 36."
+    },
+    {
+        "question": "95. Find the median of: 1.85, 2.12, 1.88, 2.05, 2.01",
+        "choices": ["2.01", "2.05", "1.88", "1.96"],
+        "correctIndex": 0,
+        "explanation": "Sorted: 1.85, 1.88, 2.01, 2.05, 2.12 → median (middle value) = 2.01."
+    },
+    {
+        "question": "96. Data: 6, 8, 9, 10, 7, 6. What is the mode?",
+        "choices": ["6", "7", "8", "9"],
+        "correctIndex": 0,
+        "explanation": "Sorted: 6, 6, 7, 8, 9, 10 → 6 appears most frequently (twice)."
+    },
+    {
+        "question": "96. Data: 6, 8, 9, 10, 7, 6. What is the median?",
+        "choices": ["7", "7.5", "8", "8.5"],
+        "correctIndex": 1,
+        "explanation": "Sorted: 6, 6, 7, 8, 9, 10 → median = average of two middle numbers: (7+8)/2 = 7.5."
+    },
+    {
+        "question": "97. Data: 32, 36, 34, 32, 33, 36, 39, 32. What is the mode?",
+        "choices": ["32", "34", "36", "33"],
+        "correctIndex": 0,
+        "explanation": "32 appears 3 times, more than any other value."
+    },
+    {
+        "question": "97. Data: 32, 36, 34, 32, 33, 36, 39, 32. What is the median?",
+        "choices": ["33", "33.5", "34", "34.5"],
+        "correctIndex": 1,
+        "explanation": "Sorted: 32, 32, 32, 33, 34, 36, 36, 39 → median = (33+34)/2 = 33.5."
+    },
+    {
+        "question": "97. Data: 32, 36, 34, 32, 33, 36, 39, 32. What is the mean?",
+        "choices": ["33.75", "34.0", "34.25", "34.5"],
+        "correctIndex": 2,
+        "explanation": "Sum = 32+36+34+32+33+36+39+32 = 274; Mean = 274 ÷ 8 = 34.25."
+    },
+    {
+        "question": "98. Data: 10, 14, x, 9. The mean is 10. What is x?",
+        "choices": ["6", "7", "8", "9"],
+        "correctIndex": 1,
+        "explanation": "Sum = 10+14+x+9 = 33+x; Mean = (33+x)/4 = 10 → 33+x = 40 → x = 7."
+    },
+    {
+        "question": "99. Using the dot plot of TV hours watched: (1) What is the range?",
+        "choices": ["6", "7", "8", "9"],
+        "correctIndex": 1,
+        "explanation": "Range = Maximum value - Minimum value = 8 - 1 = 7."
+    },
+    {
+        "question": "99. Using the dot plot of TV hours watched: (2) How many students watched more than 4 hours?",
+        "choices": ["7", "8", "9", "10"],
+        "correctIndex": 2,
+        "explanation": "Count the dots for values 5, 6, 7, and 8 hours."
+    },
+    {
+        "question": "99. Using the dot plot of TV hours watched: (3) What is the mode?",
+        "choices": ["3", "4", "5", "6"],
+        "correctIndex": 1,
+        "explanation": "The value with the most dots is 4 hours."
+    },
+    {
+        "question": "100. Using the box plot: What is the minimum value?",
+        "choices": ["78", "79", "80", "81"],
+        "correctIndex": 1,
+        "explanation": "The left whisker ends at 79."
+    },
+    {
+        "question": "100. Using the box plot: What is the maximum value?",
+        "choices": ["85", "86", "87", "88"],
+        "correctIndex": 2,
+        "explanation": "The right whisker ends at 87."
+    },
+    {
+        "question": "100. Using the box plot: What is the median?",
+        "choices": ["81", "82", "83", "84"],
+        "correctIndex": 1,
+        "explanation": "The line inside the box is at 82."
+    },
+    {
+        "question": "100. Using the box plot: What is the range?",
+        "choices": ["6", "7", "8", "9"],
+        "correctIndex": 2,
+        "explanation": "Range = Max - Min = 87 - 79 = 8."
+    },
+    {
+        "question": "100. Using the box plot: What is the interquartile range (IQR)?",
+        "choices": ["4", "5", "6", "7"],
+        "correctIndex": 1,
+        "explanation": "IQR = Q3 - Q1 = 85 - 80 = 5."
+    }
+]

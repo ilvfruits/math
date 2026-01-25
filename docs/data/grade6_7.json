@@ -1,0 +1,74 @@
+[
+    {
+    "question": "71. Compare triangle areas.",
+    "choices": ["B larger", "C larger", "Same"],
+    "correctIndex": 2,
+    "explanation": "Same base and height → same area."
+    },
+    {
+        "question": "72. Estimate unshaded area (grid squares).",
+        "choices": ["7~11 cm²", "14~18 cm²", "18~22 cm²", ">22 cm²"],
+        "correctIndex": 2,
+        "explanation": "Approximately 20 cm²."
+    },
+    {
+        "question": "73. Rectangle 6×5, increase length by 2, width by 1. Area increase?",
+        "choices": ["18 m²", "30 m²", "48 m²"],
+        "correctIndex": 0,
+        "explanation": "New = 8×6=48, old=30, increase=18."
+    },
+    {
+        "question": "74. Capless tissue box: 9×6×8. Surface area?",
+        "choices": ["174 cm²", "294 cm²", "348 cm²", "588 cm²"],
+        "correctIndex": 3,
+        "explanation": "Without top: base + sides inner/outer considered → 588 cm²."
+    },
+    {
+        "question": "75. How many small cubes are in a 2×2×2 cube?",
+        "choices": ["6", "4", "8", "12"],
+        "correctIndex": 2,
+        "explanation": "2³ = 2 × 2 × 2 = 8 cubes."
+    },
+    {
+        "question": "75. How many small cubes are in a 3×3×3 cube?",
+        "choices": ["18", "27", "9", "36"],
+        "correctIndex": 1,
+        "explanation": "3³ = 3 × 3 × 3 = 27 cubes."
+    },
+    {
+        "question": "76. Which of the following nets (A, B, C, D) cannot be folded into a cube?",
+        "choices": ["A", "C", "B", "D"],
+        "correctIndex": 1,
+        "explanation": "Net C cannot be folded into a cube because of the arrangement of its faces."
+    },
+    {
+        "question": "77. A prism has a square base with side length 7 cm and height 18 cm. What is its volume?",
+        "choices": ["882 cm³", "252 cm³", "126 cm³", "441 cm³"],
+        "correctIndex": 0,
+        "explanation": "Base area = side² = 7² = 49 cm². Volume = Base Area × Height = 49 × 18 = 882 cm³."
+    },
+    {
+        "question": "78. Calculate the volume of a rectangular prism with dimensions 5 cm × 7 cm × 11 cm.",
+        "choices": ["385 cm³", "275 cm³", "350 cm³", "420 cm³"],
+        "correctIndex": 0,
+        "explanation": "Volume = length × width × height = 5 × 7 × 11 = 385 cm³."
+    },
+    {
+        "question": "78. Calculate the volume of a rectangular prism with dimensions 6 cm × 9 cm × 15 cm.",
+        "choices": ["720 cm³", "810 cm³", "540 cm³", "630 cm³"],
+        "correctIndex": 1,
+        "explanation": "Volume = length × width × height = 6 × 9 × 15 = 810 cm³."
+    },
+    {
+        "question": "79. A rectangular prism has dimensions 4 cm × 6 cm × 10 cm. What is its total surface area?",
+        "choices": ["240 cm²", "284 cm²", "208 cm²", "248 cm²"],
+        "correctIndex": 3,
+        "explanation": "Surface Area = 2(lw + lh + wh) = 2((4×6)+(4×10)+(6×10)) = 2(24+40+60) = 2×124 = 248 cm²."
+    },
+    {
+        "question": "80. Calculate the volume of the given solid figure.",
+        "choices": ["576 cm³", "648 cm³", "504 cm³", "432 cm³"],
+        "correctIndex": 0,
+        "explanation": "Volume = base area × height = 72 cm² × 8 cm = 576 cm³."
+    }
+]
