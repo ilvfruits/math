@@ -13,11 +13,27 @@
   <p>Select a question set:</p>
 
   <button onclick="startQuiz('grade3')">Grade 3</button>
-  <button onclick="startQuiz('grade6')">Grade 6</button>
+  <button onclick="startQuiz('grade6_1')">Grade 6 (part 1)</button>
+  <button onclick="startQuiz('grade6_2')">Grade 6 (part 2)</button>
+  <button onclick="startQuiz('grade6_3')">Grade 6 (part 3)</button>
+  <button onclick="startQuiz('grade6_4')">Grade 6 (part 4)</button>
   <button onclick="startQuiz('sat')">SAT</button>
   <button onclick="startQuiz('aops')">AOPS</button>
+  
 </div>
 
+<div id="quiz-buttons"></div>
+  <script>
+      function createQuizButtons(numParts) {
+          const container = document.getElementById('quiz-buttons');
+          for (let i = 1; i <= numParts; i++) {
+              container.innerHTML += 
+                  `<button onclick="startQuiz('grade6_${i}')">Grade 6 (part ${i})</button>\n`;
+          }
+      }
+      createQuizButtons(9);
+  </script>
+  
 <script>
 function startQuiz(setName) {
   window.location.href = `quiz.html?set=${setName}`;
@@ -26,4 +42,5 @@ function startQuiz(setName) {
 
 </body>
 </html>
+
 
