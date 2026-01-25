@@ -88,9 +88,10 @@ button.wrong {
 }
 
 /* Back button */
-.quiz-container button:last-child {
+.back-btn {
   background: #e5e7eb;
   border-color: #d1d5db;
+  font-weight: 600;
 }
 
 /* Hidden utility */
@@ -109,3 +110,4 @@ button.wrong {
     font-size: 18px;
   }
 }
+
