@@ -11,21 +11,21 @@
 <div class="quiz-container">
   <h1>📘 Math Practice</h1>
   <p>Select a question set:</p>
-  <script>
-      function createQuizButtons(numParts) {
-          const container = document.getElementById('quiz-buttons');
-          for (let i = 1; i <= numParts; i++) {
-              container.innerHTML += 
-                  `<button onclick="startQuiz('grade6_${i}')">Grade 6 (part ${i})</button>\n`;
-          }
-      }
-      createQuizButtons(9);
-  </script>
   <button onclick="startQuiz('grade3')">Grade 3</button>
   <button onclick="startQuiz('sat')">SAT</button>
   <button onclick="startQuiz('aops')">AOPS</button>
-  
 </div>
+
+<div id="quiz-buttons"></div>
+<script>
+    const buttonContainer = document.getElementById('quiz-buttons');
+    for (let i = 1; i <= 9; i++) {
+        const button = document.createElement('button');
+        button.textContent = `Grade 6 (part ${i})`;
+        button.onclick = () => startQuiz(`grade6_${i}`);
+        buttonContainer.appendChild(button);
+    }
+</script>
   
 <script>
 function startQuiz(setName) {
@@ -35,6 +35,7 @@ function startQuiz(setName) {
 
 </body>
 </html>
+
 
 
 
