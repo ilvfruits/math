@@ -11,7 +11,14 @@
 <div class="quiz-container">
   <h2 id="question">Loading...</h2>
   <div id="choices"></div>
+  
+  <div id="fillArea" class="hidden">
+    <input id="fillInput" type="text" placeholder="Type your answer" />
+    <button id="submitFill">Submit</button>
+  </div>
+  
   <div id="explanation" class="hidden"></div>
+  
   <button id="nextBtn" class="hidden">Next Question</button>
   <button class="back-btn" onclick="goHome()">⬅ Back</button>
 </div>
@@ -19,4 +26,5 @@
 <script src="quiz.js"></script>
 </body>
 </html>
+
 
