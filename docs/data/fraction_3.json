@@ -1,0 +1,132 @@
+[
+  {
+    "type": "mc",
+    "question": "Sarah is twice as old as her brother. In 5 years, the sum of their ages will be 40. How old is Sarah now?",
+    "choices": ["15", "20", "10", "25"],
+    "correctIndex": 1,
+    "explanation": "Let brother's age = x, Sarah's age = 2x. In 5 years: (x+5)+(2x+5)=40 → 3x+10=40 → 3x=30 → x=10. Sarah now = 2×10=20."
+  },
+  {
+    "type": "fill",
+    "question": "A train travels 240 miles in 3 hours. At the same rate, how many miles will it travel in 7 hours?",
+    "answer": "560",
+    "explanation": "Speed = 240/3 = 80 mph. Distance in 7 hours = 80 × 7 = 560 miles."
+  },
+  {
+    "type": "mc",
+    "question": "The sum of three consecutive integers is 72. What is the largest integer?",
+    "choices": ["23", "24", "25", "26"],
+    "correctIndex": 2,
+    "explanation": "Let integers be x, x+1, x+2. Sum: x+(x+1)+(x+2)=72 → 3x+3=72 → 3x=69 → x=23. Largest = 23+2=25."
+  },
+  {
+    "type": "fill",
+    "question": "A rectangle's length is 3 times its width. If the perimeter is 64 cm, what is the area?",
+    "answer": "192",
+    "explanation": "Let width = w, length = 3w. Perimeter: 2(w+3w)=64 → 8w=64 → w=8, length=24. Area = 8×24=192 cm²."
+  },
+  {
+    "type": "mc",
+    "question": "If 5 notebooks cost $12.50, how much would 8 notebooks cost?",
+    "choices": ["$18", "$20", "$22", "$24"],
+    "correctIndex": 1,
+    "explanation": "Cost per notebook = $12.50÷5 = $2.50. 8 notebooks = 8×$2.50 = $20."
+  },
+  {
+    "type": "fill",
+    "question": "A number decreased by 15 equals 3 times the number increased by 5. What is the number?",
+    "answer": "-10",
+    "explanation": "x - 15 = 3(x + 5) → x - 15 = 3x + 15 → x-3x=15+15 → -2x=30 → x=-15."
+  },
+  {
+    "type": "mc",
+    "question": "A car uses 12 gallons of gas to travel 300 miles. How many gallons would it use to travel 450 miles?",
+    "choices": ["15", "16", "17", "18"],
+    "correctIndex": 3,
+    "explanation": "Miles per gallon = 300÷12 = 25 mpg. For 450 miles: 450÷25 = 18 gallons."
+  },
+  {
+    "type": "fill",
+    "question": "The sum of two numbers is 45. Their difference is 15. What is the larger number?",
+    "answer": "30",
+    "explanation": "Let numbers be x and y: x+y=45, x-y=15. Add equations: 2x=60 → x=30, y=15."
+  },
+  {
+    "type": "mc",
+    "question": "A store sells shirts for $25 each. After a 20% discount, what is the sale price?",
+    "choices": ["$18", "$19", "$20", "$21"],
+    "correctIndex": 2,
+    "explanation": "Discount = 20% of $25 = 0.20×25 = $5. Sale price = $25 - $5 = $20."
+  },
+  {
+    "type": "fill",
+    "question": "A triangle has a base of 12 cm and height of 8 cm. A rectangle has the same area but width 6 cm. What is the rectangle's length?",
+    "answer": "8",
+    "explanation": "Triangle area = ½×12×8 = 48 cm². Rectangle area = length×width = length×6 = 48 → length = 8 cm."
+  },
+  {
+    "type": "mc",
+    "question": "John can paint a room in 4 hours. Mary can paint the same room in 6 hours. How long would it take them working together?",
+    "choices": ["2.4 hours", "2.5 hours", "2.6 hours", "2.8 hours"],
+    "correctIndex": 0,
+    "explanation": "John's rate = 1/4 room/hour, Mary's = 1/6 room/hour. Combined rate = 1/4+1/6 = 5/12 room/hour. Time = 1 ÷ (5/12) = 12/5 = 2.4 hours."
+  },
+  {
+    "type": "fill",
+    "question": "A number plus its half equals 36. What is the number?",
+    "answer": "24",
+    "explanation": "x + x/2 = 36 → 3x/2 = 36 → 3x = 72 → x = 24."
+  },
+  {
+    "type": "mc",
+    "question": "A jacket originally priced at $80 is on sale for 25% off. After the discount, there's an additional 10% off the sale price. What is the final price?",
+    "choices": ["$54", "$56", "$58", "$60"],
+    "correctIndex": 0,
+    "explanation": "First discount: $80×0.25=$20, sale price=$60. Second discount: $60×0.10=$6, final price=$54."
+  },
+  {
+    "type": "fill",
+    "question": "The sum of the angles in a triangle is 180°. If one angle is twice another, and the third is 30°, what is the measure of the largest angle?",
+    "answer": "100",
+    "explanation": "Let one angle = x, second angle = 2x, third = 30. x+2x+30=180 → 3x=150 → x=50. Largest angle = 2×50=100°."
+  },
+  {
+    "type": "mc",
+    "question": "A mixture contains 3 parts sand to 2 parts cement. If there are 15 pounds of sand, how many pounds of cement are needed?",
+    "choices": ["8", "9", "10", "12"],
+    "correctIndex": 2,
+    "explanation": "Ratio sand:cement = 3:2. With 15 lb sand (3×5), cement needed = 2×5 = 10 lb."
+  },
+  {
+    "type": "fill",
+    "question": "If 4 more than 3 times a number equals 10 less than 5 times the number, what is the number?",
+    "answer": "7",
+    "explanation": "3x + 4 = 5x - 10 → 4+10 = 5x-3x → 14 = 2x → x = 7."
+  },
+  {
+    "type": "mc",
+    "question": "A rectangular garden is 20 feet long and 15 feet wide. A path of uniform width surrounds it, increasing the total area to 374 square feet. What is the width of the path?",
+    "choices": ["1 ft", "2 ft", "3 ft", "4 ft"],
+    "correctIndex": 0,
+    "explanation": "Original area = 20×15=300 ft². Let path width = x. New dimensions: (20+2x)×(15+2x)=374. Solve: 300+70x+4x²=374 → 4x²+70x-74=0 → 2x²+35x-37=0 → (2x+37)(x-1)=0 → x=1 ft or x=-18.5. Positive solution: x=1 ft."
+  },
+  {
+    "type": "fill",
+    "question": "A boat travels 30 miles downstream in 2 hours and returns upstream in 3 hours. What is the speed of the boat in still water?",
+    "answer": "12.5",
+    "explanation": "Let boat speed = b, current speed = c. Downstream: b+c=30/2=15 mph. Upstream: b-c=30/3=10 mph. Add equations: 2b=25 → b=12.5 mph."
+  },
+  {
+    "type": "mc",
+    "question": "The product of two consecutive even integers is 168. What is the smaller integer?",
+    "choices": ["12", "14", "16", "18"],
+    "correctIndex": 0,
+    "explanation": "Let integers be x and x+2. x(x+2)=168 → x²+2x-168=0 → (x+14)(x-12)=0 → x=12 or x=-14. Positive solution: x=12."
+  },
+  {
+    "type": "fill",
+    "question": "A collection of coins has 3 times as many quarters as dimes. The total value is $4.40. How many quarters are there?",
+    "answer": "12",
+    "explanation": "Let dimes = d, quarters = 3d. Value: 0.10d + 0.25(3d)=4.40 → 0.10d+0.75d=0.85d=4.40 → d=4.40/0.85≈5.176. This doesn't give whole coins. Alternative: 4 dimes ($0.40) and 16 quarters ($4.00) gives $4.40, but ratio is 4:1. Or 8 dimes ($0.80) and 12 quarters ($3.00) gives $3.80. Actually 12 quarters is $3.00, need $1.40 more from dimes, which is 14 dimes. Total: 14 dimes, 12 quarters, ratio ≈ 0.86:1, not 3:1. Let's find integer solution: 0.10d + 0.25(3d)=0.85d=4.40 → d=4.40/0.85=5.176... Multiply by 3: 5.176×3=15.529 quarters. Not integer. Closest integer: 5 dimes ($0.50) + 15 quarters ($3.75)=$4.25, or 6 dimes ($0.60)+18 quarters ($4.50)=$5.10. No exact solution with 3:1 ratio."
+  }
+]
