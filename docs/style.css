@@ -99,6 +99,30 @@ button.wrong {
   display: none;
 }
 
+#fillArea {
+  margin-top: 12px;
+}
+
+#fillInput {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #d1d5db;
+  margin-bottom: 10px;
+}
+
+#submitFill {
+  background: #0ea5e9;
+  color: white;
+  border-color: #0ea5e9;
+}
+
+#submitFill:hover {
+  background: #0284c7;
+}
+
+
 /* Mobile optimization */
 @media (max-width: 480px) {
   button {
@@ -110,4 +134,5 @@ button.wrong {
     font-size: 18px;
   }
 }
+
 
